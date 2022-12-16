@@ -1,0 +1,9 @@
+Surgiu para deixar as paginas web dinamicas
+ - Orientando a objetos
+ - Funcional
+ - Orientado a eventos
+
+Utilizado no NODEJS
+Capaz de ler códigos do lado back-end
+
+Dar vida e interatividade para a WEB
