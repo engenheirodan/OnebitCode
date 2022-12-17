@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Variaveis</title>
+</head>
+<body>
+	<script type="text/javascript">
+     debugger
+     let piloto = prompt("Qual seu nome comandante?");
+     let veloz = 0
+
+     velozes = parseInt(prompt("Qual velocidade gostaria de acelerar?"));
+     let furiozos = confirm("Nave ligada a velocidade " + velozes + " tudo bem?");
+     /*confirtma velocidade*/
+     if(furiozos){
+       veloz = velozes
+     }
+
+     if (veloz <= 0) {// numero digitado diferente de  7
+          alert("ta parado");//é verdade que o numero digitado é diferente de 7
+     } else if (veloz <= 40){
+          alert("devagar");// é falso que o numero é diferente de 7 ou seja o numero digitado é o proprio 7
+     }
+     else if (veloz >= 40 && veloz <= 80){
+          alert("mantenha velocidade");// é falso que o numero é diferente de 7 ou seja o numero digitado é o proprio 7
+     }
+     else if (veloz >= 80 && veloz <= 100){
+          alert("velocidade alta");// é falso que o numero é diferente de 7 ou seja o numero digitado é o proprio 7
+     }
+      else{
+          alert("velocidade perigosa");
+     }
+alert("o piloto " + piloto + " está conduzindo a nave em velocidade " + veloz);
+
+	</script>
+
+</body>
+</html>
