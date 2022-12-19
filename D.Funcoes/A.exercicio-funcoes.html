@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script>
+ let number1 = 80
+ let number2 = 70
+ let number3 = parseInt(prompt("Digite um numero"));
+
+    
+function greetPilot() {
+   var somatorio = ((number1 + number2) / number3);
+    alert("Bom dia, Piloto! " + somatorio)
+}
+greetPilot()
+
+
+/*parametros da função* greetPilot(altura, largura) */
+function greetPilot(altura, largura) {
+   var area = altura + largura;
+    alert("Bom dia, Piloto! " + area)
+}
+greetPilot(60, 10)
+
+
+
+
+
+/*parametros da funcao mensagem padrão* greetPilot(name, message = "ola mundo") */
+function greetPilot(name, message = "olá") {
+    alert(message + ", " + name)
+}
+greetPilot("danilo" , "santos")
+
+
+
+
+
+/*parametros da funcao return* */
+function greetPilot(altura, largura) {
+   var area = altura + largura;
+    alert("Bom dia, Piloto! " + area)
+    return greetPilot
+}
+greetPilot(60, 10);
+
+
+    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 07</title>
+    
+</head>
+<body>
+    Utilizando o For
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
