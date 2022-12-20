@@ -26,8 +26,15 @@
     cars.pop
     
     // Array bidimensional
-    let cars = [["ola", 1], ["hello", 2], ["hi", 3]];
-    alert(cars[2][0]);
+    let cars = ["Saab", "Volvo", "BMW"];
+    alert(cars + " <hr>");
+
+    //splice signfica emendar ou costurar
+    let removedcars = cars.splice (1, "gee", 25);
+    alert(removedcars);
+
+    //slice fatiar ou dividir sem alterar array original
+    cars.slice(1, 3)
     </script>
 <head>
     <meta charset="UTF-8">
