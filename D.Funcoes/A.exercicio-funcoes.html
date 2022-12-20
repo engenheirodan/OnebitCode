@@ -43,6 +43,23 @@ function greetPilot(altura, largura) {
 greetPilot(60, 10);
 
 
+/*funcoes anomimas são chamadas atraves de uma variavel e 
+so podemos acionar depois de declarar a variavel*/
+alert(somar(60))
+
+let somar = function(velocity) {
+    return velocity * 2
+}
+/*arrow functions tbn são funcoes anonimas 
+simplificação de função anonima*/
+
+const operacao = (numero) => {
+    return numero * 2
+}
+
+console.log(operacao(60))
+
+
     </script>
 <head>
     <meta charset="UTF-8">
